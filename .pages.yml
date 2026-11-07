@@ -1,0 +1,91 @@
+media:
+  input: images
+  output: /images
+  rename: safe
+  categories: [image]
+content:
+  - name: site
+    label: Site içeriği
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: heroEyebrow
+        label: Ana başlık üst yazısı
+        type: string
+      - name: heroTitle
+        label: Ana başlık
+        type: string
+      - name: heroAccent
+        label: Vurgulu başlık
+        type: string
+      - name: heroText
+        label: Kısa tanıtım
+        type: text
+      - name: projectsEyebrow
+        label: Projeler üst yazısı
+        type: string
+      - name: projectsTitle
+        label: Projeler başlığı
+        type: string
+      - name: projects
+        label: Projeler
+        type: object
+        list:
+          collapsible: true
+        fields:
+          - name: category
+            label: Kategori
+            type: string
+          - name: title
+            label: Proje adı
+            type: string
+          - name: description
+            label: Açıklama
+            type: text
+          - name: image
+            label: Proje görseli
+            type: image
+            options:
+              media: images
+              path: projects
+              extensions: [jpg, jpeg, png, webp, svg]
+          - name: downloadUrl
+            label: İndirme bağlantısı
+            type: string
+      - name: roadmapEyebrow
+        label: Yol haritası üst yazısı
+        type: string
+      - name: roadmapTitle
+        label: Yol haritası başlığı
+        type: string
+      - name: platforms
+        label: Platformlar
+        type: object
+        list:
+          collapsible: true
+        fields:
+          - name: name
+            label: Platform
+            type: string
+          - name: detail
+            label: Açıklama
+            type: string
+          - name: status
+            label: Durum
+            type: string
+      - name: feedbackEyebrow
+        label: Öneri alanı üst yazısı
+        type: string
+      - name: feedbackTitle
+        label: Öneri başlığı
+        type: string
+      - name: aboutEyebrow
+        label: Hakkımda üst yazısı
+        type: string
+      - name: aboutTitle
+        label: Hakkımda başlığı
+        type: string
+      - name: aboutText
+        label: Hakkımda yazısı
+        type: text
