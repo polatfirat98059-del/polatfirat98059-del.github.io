@@ -1,0 +1,17 @@
+{
+  "heroEyebrow": "Polat'ın proje günlüğü",
+  "heroTitle": "Fikirler",
+  "heroAccent": "üretime",
+  "heroText": "Jarvis tarzı uygulamalarımı ve üzerinde çalıştığım projeleri burada paylaşıyorum.",
+  "projectsEyebrow": "Üzerinde çalışıyorum",
+  "projectsTitle": "Projeler",
+  "projects": [{"category": "Yapay zekâ · Kişisel asistan", "title": "Jarvis tarzı uygulamalar", "description": "Kendi dijital asistan fikirlerimi geliştiriyorum. Projeler ilerledikçe ekran görüntülerini ve detayları burada paylaşacağım.", "image": "", "downloadUrl": ""}],
+  "roadmapEyebrow": "Yol haritası",
+  "roadmapTitle": "Farklı cihazlarda buluşalım",
+  "platforms": [{"name": "Android", "detail": "Mobil sürüm", "status": "Planlanıyor"}, {"name": "iOS", "detail": "iPhone ve iPad", "status": "Planlanıyor"}, {"name": "Windows", "detail": "Masaüstü uygulaması", "status": "Planlanıyor"}, {"name": "Mac", "detail": "MacBook ve Mac masaüstü", "status": "Planlanıyor"}],
+  "feedbackEyebrow": "Fikrini paylaş",
+  "feedbackTitle": "Önerin var mı?",
+  "aboutEyebrow": "Hakkımda",
+  "aboutTitle": "Merak ediyorum, deniyorum, paylaşıyorum.",
+  "aboutText": "Ben Polat. Yapay zekâ ve kişisel asistanlar üzerine projeler geliştiriyorum. Ürettiklerimi ve öğrendiklerimi burada paylaşıyorum."
+}
